@@ -1,0 +1,12 @@
+[
+    {
+        "config": {
+            "model_type": "transformer"
+        },
+        "workload": 1,
+        "batch_size": 4,
+        "per_inst_time_avg": 30.81536889076233,
+        "per_inst_time_std": 0.07695808855950226,
+        "memory_per_inst": 3931.701171875
+    }
+]

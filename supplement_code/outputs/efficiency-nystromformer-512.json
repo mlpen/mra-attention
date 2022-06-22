@@ -1,0 +1,46 @@
+[
+    {
+        "config": {
+            "model_type": "nystromformer",
+            "num_landmarks": 16
+        },
+        "workload": 0.03125,
+        "batch_size": 512,
+        "per_inst_time_avg": 0.5906201433390379,
+        "per_inst_time_std": 0.004766096122056975,
+        "memory_per_inst": 21.727310180664062
+    },
+    {
+        "config": {
+            "model_type": "nystromformer",
+            "num_landmarks": 32
+        },
+        "workload": 0.0625,
+        "batch_size": 512,
+        "per_inst_time_avg": 0.6149577908217907,
+        "per_inst_time_std": 0.004519526349838371,
+        "memory_per_inst": 25.162368774414062
+    },
+    {
+        "config": {
+            "model_type": "nystromformer",
+            "num_landmarks": 64
+        },
+        "workload": 0.125,
+        "batch_size": 512,
+        "per_inst_time_avg": 0.7140777539461851,
+        "per_inst_time_std": 0.0005692317192265342,
+        "memory_per_inst": 34.77369689941406
+    },
+    {
+        "config": {
+            "model_type": "nystromformer",
+            "num_landmarks": 128
+        },
+        "workload": 0.25,
+        "batch_size": 256,
+        "per_inst_time_avg": 1.118314266204834,
+        "per_inst_time_std": 0.0021315952231766248,
+        "memory_per_inst": 65.00540161132812
+    }
+]

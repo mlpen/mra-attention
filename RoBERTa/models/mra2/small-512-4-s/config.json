@@ -1,0 +1,34 @@
+{
+    "from_pretrained_roberta": false,
+    "model": {
+        "mixed_precision": true,
+        "shared_weight": false,
+        "vocab_size": 50265,
+        "num_sen_type": 1,
+        "max_seq_len": 512,
+        "embedding_dim": 128,
+        "dim": 384,
+        "hidden_dim": 1536,
+        "num_layers": 4,
+        "dropout_prob": 0.1,
+        "num_head": 6,
+        "head_dim": 64,
+        "model_type": "mra2",
+        "block_per_row": 4,
+        "approx_mode": "sparse",
+        "initial_prior_first_n_blocks": 0,
+        "initial_prior_diagonal_n_blocks": 0
+    },
+    "dataset": "datasets/roberta-train-sl_512-bs_512-nb_1000-ne_200-bookcorpus-english_wiki",
+    "val_dataset": "datasets/roberta-val-sl_512-bs_512-nb_200-ne_1-bookcorpus-english_wiki-transformer/epoch-0000.pickle.gzip",
+    "pretraining_setting": {
+        "learning_rate": 0.0001,
+        "warmup": 0.05,
+        "batches_per_report": 10,
+        "batches_per_epoch": 1000,
+        "epoch": 150
+    },
+    "gpu_setting": {
+        "inst_per_gpu": 32
+    }
+}

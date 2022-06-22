@@ -1,0 +1,86 @@
+[
+    {
+        "config": {
+            "model_type": "mra2",
+            "block_per_row": 1,
+            "approx_mode": "full"
+        },
+        "workload": 0.0078125,
+        "batch_size": 64,
+        "per_inst_time_avg": 5.151776969432831,
+        "per_inst_time_std": 0.02507424437964812,
+        "memory_per_inst": 199.80172729492188
+    },
+    {
+        "config": {
+            "model_type": "mra2",
+            "block_per_row": 2,
+            "approx_mode": "full"
+        },
+        "workload": 0.015625,
+        "batch_size": 64,
+        "per_inst_time_avg": 5.383698642253876,
+        "per_inst_time_std": 0.025773670768413377,
+        "memory_per_inst": 206.00875854492188
+    },
+    {
+        "config": {
+            "model_type": "mra2",
+            "block_per_row": 4,
+            "approx_mode": "full"
+        },
+        "workload": 0.03125,
+        "batch_size": 64,
+        "per_inst_time_avg": 5.958863720297813,
+        "per_inst_time_std": 0.02290944746740069,
+        "memory_per_inst": 228.06138610839844
+    },
+    {
+        "config": {
+            "model_type": "mra2",
+            "block_per_row": 8,
+            "approx_mode": "full"
+        },
+        "workload": 0.0625,
+        "batch_size": 64,
+        "per_inst_time_avg": 7.05232173204422,
+        "per_inst_time_std": 0.01069215307187136,
+        "memory_per_inst": 277.64341735839844
+    },
+    {
+        "config": {
+            "model_type": "mra2",
+            "block_per_row": 16,
+            "approx_mode": "full"
+        },
+        "workload": 0.125,
+        "batch_size": 32,
+        "per_inst_time_avg": 9.278208017349243,
+        "per_inst_time_std": 0.02176250951586407,
+        "memory_per_inst": 380.827880859375
+    },
+    {
+        "config": {
+            "model_type": "mra2",
+            "block_per_row": 32,
+            "approx_mode": "full"
+        },
+        "workload": 0.25,
+        "batch_size": 16,
+        "per_inst_time_avg": 13.712729513645172,
+        "per_inst_time_std": 0.04623744985345166,
+        "memory_per_inst": 1343.5582885742188
+    },
+    {
+        "config": {
+            "model_type": "mra2",
+            "block_per_row": 64,
+            "approx_mode": "full"
+        },
+        "workload": 0.5,
+        "batch_size": 16,
+        "per_inst_time_avg": 22.530347108840942,
+        "per_inst_time_std": 0.06656718638772137,
+        "memory_per_inst": 1254.99755859375
+    }
+]

@@ -51,8 +51,8 @@ class BackboneWrapper(nn.Module):
         elif self.model_type == "soft":
             from soft import Backbone
             self.backbone = Backbone(config)
-        elif self.model_type == "block_sparse_v3":
-            from block_sparse_v3 import Backbone
+        elif self.model_type == "mra2":
+            from mra2 import Backbone
             self.backbone = Backbone(config)
         elif self.model_type == "yoso_attention":
             from yoso_attention import Backbone

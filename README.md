@@ -32,7 +32,7 @@ python3 src/datasets_scripts/pretrain/jsonl_to_arrow.py \
 You can move some jsonl files from `<jsonl_files_output_folder>` to a different folder and use it as validation set.
 
 ## Training using PyTorch Lightning
-Both pretraining and finetuning are launched by `main.py`. All configuration including training pipeline, dataset, data collator, optimizer are specified in a config file, such as `cfgs/roberta/base-512/postnorm.py`
+Both pretraining and finetuning are launched by `main.py`. All configuration including training pipeline, model, dataset, data collator, and optimizer are specified in a config file, such as `cfgs/roberta/base-512/postnorm.py`
 ```
 python3 main.py --config cfgs/roberta/base-512/postnorm.py
 python3 main.py --config cfgs/roberta/base-512/mra2.py

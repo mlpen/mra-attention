@@ -1,0 +1,33 @@
+{
+    "from_cp": "models/yoso_attention/small-512-16/model/cp-0149.model",
+    "from_pretrained_roberta": false,
+    "model": {
+        "mixed_precision": true,
+        "shared_weight": false,
+        "vocab_size": 50265,
+        "num_sen_type": 1,
+        "max_seq_len": 4096,
+        "embedding_dim": 128,
+        "dim": 384,
+        "hidden_dim": 1536,
+        "num_layers": 4,
+        "dropout_prob": 0.1,
+        "num_head": 6,
+        "head_dim": 64,
+        "model_type": "yoso_attention",
+        "hashcode_len": 12,
+        "num_hash_f": 16
+    },
+    "dataset": "datasets/roberta-train-sl_4096-bs_64-nb_1000-ne_200-bookcorpus-english_wiki-stories-realnews",
+    "val_dataset": "datasets/roberta-val-sl_4096-bs_64-nb_1000-ne_20-bookcorpus-english_wiki-stories-realnews/epoch-0000.pickle.gzip",
+    "pretraining_setting": {
+        "learning_rate": 5e-05,
+        "warmup": 0.05,
+        "batches_per_report": 10,
+        "batches_per_epoch": 1000,
+        "epoch": 75
+    },
+    "gpu_setting": {
+        "inst_per_gpu": 4
+    }
+}

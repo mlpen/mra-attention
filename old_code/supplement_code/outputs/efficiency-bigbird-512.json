@@ -1,0 +1,38 @@
+[
+    {
+        "config": {
+            "model_type": "bigbird",
+            "block_size": 8,
+            "random_block": 3
+        },
+        "workload": 0.125,
+        "batch_size": 256,
+        "per_inst_time_avg": 2.1224403753876686,
+        "per_inst_time_std": 0.0171067669646372,
+        "memory_per_inst": 62.421382904052734
+    },
+    {
+        "config": {
+            "model_type": "bigbird",
+            "block_size": 16,
+            "random_block": 3
+        },
+        "workload": 0.25,
+        "batch_size": 256,
+        "per_inst_time_avg": 2.2058578208088875,
+        "per_inst_time_std": 0.016410084937150418,
+        "memory_per_inst": 65.18310165405273
+    },
+    {
+        "config": {
+            "model_type": "bigbird",
+            "block_size": 32,
+            "random_block": 3
+        },
+        "workload": 0.5,
+        "batch_size": 256,
+        "per_inst_time_avg": 2.240840159356594,
+        "per_inst_time_std": 0.0034459450454501312,
+        "memory_per_inst": 71.89831161499023
+    }
+]

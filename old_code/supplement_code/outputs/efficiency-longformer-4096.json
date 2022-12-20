@@ -1,0 +1,86 @@
+[
+    {
+        "config": {
+            "model_type": "longformer",
+            "first_n_tokens": 1,
+            "window_size": 16
+        },
+        "workload": 0.004150390625,
+        "batch_size": 32,
+        "per_inst_time_avg": 8.754535019397736,
+        "per_inst_time_std": 0.014557093701439629,
+        "memory_per_inst": 629.8781127929688
+    },
+    {
+        "config": {
+            "model_type": "longformer",
+            "first_n_tokens": 1,
+            "window_size": 32
+        },
+        "workload": 0.008056640625,
+        "batch_size": 32,
+        "per_inst_time_avg": 9.00595560669899,
+        "per_inst_time_std": 0.015052894400646515,
+        "memory_per_inst": 325.4571838378906
+    },
+    {
+        "config": {
+            "model_type": "longformer",
+            "first_n_tokens": 1,
+            "window_size": 64
+        },
+        "workload": 0.015869140625,
+        "batch_size": 32,
+        "per_inst_time_avg": 10.182704031467438,
+        "per_inst_time_std": 0.03062760602478419,
+        "memory_per_inst": 345.0298156738281
+    },
+    {
+        "config": {
+            "model_type": "longformer",
+            "first_n_tokens": 1,
+            "window_size": 128
+        },
+        "workload": 0.031494140625,
+        "batch_size": 32,
+        "per_inst_time_avg": 12.937768548727036,
+        "per_inst_time_std": 0.02594066677698238,
+        "memory_per_inst": 384.3110656738281
+    },
+    {
+        "config": {
+            "model_type": "longformer",
+            "first_n_tokens": 1,
+            "window_size": 256
+        },
+        "workload": 0.062744140625,
+        "batch_size": 16,
+        "per_inst_time_avg": 18.57132613658905,
+        "per_inst_time_std": 0.03643382009723111,
+        "memory_per_inst": 1004.5009460449219
+    },
+    {
+        "config": {
+            "model_type": "longformer",
+            "first_n_tokens": 1,
+            "window_size": 512
+        },
+        "workload": 0.125244140625,
+        "batch_size": 16,
+        "per_inst_time_avg": 29.79924827814102,
+        "per_inst_time_std": 0.007724400492045188,
+        "memory_per_inst": 831.9364929199219
+    },
+    {
+        "config": {
+            "model_type": "longformer",
+            "first_n_tokens": 1,
+            "window_size": 1024
+        },
+        "workload": 0.250244140625,
+        "batch_size": 8,
+        "per_inst_time_avg": 52.14172005653381,
+        "per_inst_time_std": 0.035858804730625055,
+        "memory_per_inst": 1493.5429077148438
+    }
+]

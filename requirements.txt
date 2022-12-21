@@ -1,6 +1,6 @@
 transformers>=4.20
 datasets>=2.0.0
 tqdm>=4.64.0
-git+https://github.com/barry-jin/pytorch-lightning@release/1.6.5#egg=pytorch-lightning
+pytorch-lightning
 ninja>=1.10.2
 spacy
